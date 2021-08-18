@@ -1,0 +1,123 @@
+/* SITE-HEADER */
+.site-header{
+  position: relative;
+  padding-left: 165px;
+  padding-right: 165px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background-color: #FFFFFF;
+}
+
+.site-header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header__logo-link{
+  margin-right: 59px;
+}
+
+.site-header__links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.site-header__link{
+  font-family: Space;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  text-decoration: none;
+}
+
+.site-header__link-get{
+  font-family: Space;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FCB72B;
+  padding: 14px 39px;
+  text-decoration: none;
+}
+
+.site-header__link:not(:last-child){
+  margin-right: 32px;
+}
+
+.site-header__button{
+  display: none;
+  width: 20px;
+  height: 16px;
+  background-image: url(../../img/hamburger.svg);
+  border: none;
+  background-color: transparent;
+}
+
+.site-header__links--open .site-header__links{
+  display: block;
+}
+
+.site-header__links--open .site-header__button{
+  background-image: url(../../img/close.svg);
+}
+
+
+
+/* MEDIA */
+
+@include breakpoint-down (920px) {
+
+  .site-header{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@include breakpoint-down (768px) {
+
+  .site-header{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@include breakpoint-down (650px) {
+
+  .site-header__links{
+    display: none;
+  }
+
+  .site-header__links{
+    position: absolute;
+    flex-direction: column;
+    top: 100%;
+    left: 0%;
+    height: 100vh;
+    max-width: 60%;
+    padding-top: 64px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #333A44;
+  }
+
+  .site-header__links-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .site-header__button{
+    display: block;
+  }
+
+  .site-header__link{
+    margin-bottom: 24px;
+  }
+}
