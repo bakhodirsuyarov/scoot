@@ -652,9 +652,56 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .site-hero {
+    background-position: right center;
+  }
   .site-hero__wrapper {
     padding-bottom: 217px;
     background-position: calc(50% - 271px) 475px, calc(50% - -295px) 555px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .site-hero__wrapper {
+    background-position: calc(50% - 271px) 475px, calc(50% - -256px) 555px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .site-hero__wrapper {
+    background-image: url(../../img/desktop-right-line.svg);
+    background-position: calc(50% - 271px) 475px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .site-hero__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 561px) {
+  .site-hero__wrapper {
+    background-position: calc(50% - 270px) 470px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .site-hero__wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 140px;
+    padding-bottom: 200px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .site-hero__wrapper {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 115px;
+    padding-bottom: 180px;
+    background-position: calc(50% - 254px) 430px;
   }
 }
 /*# sourceMappingURL=main.css.map */
