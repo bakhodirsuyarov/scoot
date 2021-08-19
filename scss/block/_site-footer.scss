@@ -65,6 +65,10 @@
   font-size: 15px;
   line-height: 25px;
   color: #939CAA;
+
+  &:hover{
+    color: #FCB72B;
+  }
 }
 
 .site-footer__bottom-item:not(:last-child){

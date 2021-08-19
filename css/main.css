@@ -473,6 +473,10 @@ body {
   text-decoration: none;
 }
 
+.site-header__link:hover {
+  color: #FCB72B;
+}
+
 .site-header__link-get {
   font-family: Space;
   font-weight: bold;
@@ -483,6 +487,12 @@ body {
   background-color: #FCB72B;
   padding: 14px 39px;
   text-decoration: none;
+}
+
+.site-header__link-get:hover {
+  color: #FCB72B;
+  background-color: #fff;
+  border: 2px solid #FCB72B;
 }
 
 .site-header__link:not(:last-child) {
@@ -1234,6 +1244,10 @@ body {
   color: #939CAA;
 }
 
+.site-footer__bottom-link:hover {
+  color: #FCB72B;
+}
+
 .site-footer__bottom-item:not(:last-child) {
   margin-right: 32px;
 }
@@ -1338,5 +1352,13 @@ body {
 
 .social-item:not(:last-child) {
   margin-right: 24px;
+}
+
+.social-link__facebook {
+  fill: #FCB72B;
+}
+
+.social-link__facebook:hover {
+  fill: #fff;
 }
 /*# sourceMappingURL=main.css.map */

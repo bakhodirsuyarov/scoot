@@ -9,3 +9,11 @@
 .social-item:not(:last-child){
   margin-right: 24px;
 }
+
+.social-link__facebook{
+  fill: #FCB72B;
+
+  &:hover{
+    fill: #fff;
+  }
+}

@@ -32,6 +32,10 @@
   line-height: 25px;
   color: #939CAA;
   text-decoration: none;
+
+  &:hover{
+    color: #FCB72B;
+  }
 }
 
 .site-header__link-get{
@@ -44,6 +48,12 @@
   background-color: #FCB72B;
   padding: 14px 39px;
   text-decoration: none;
+
+  &:hover{
+    color: #FCB72B;
+    background-color: #fff;
+    border: 2px solid #FCB72B;
+  }
 }
 
 .site-header__link:not(:last-child){
