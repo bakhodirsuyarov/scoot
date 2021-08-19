@@ -427,7 +427,8 @@ body {
 /* MAIN */
 /* SITE-HEADER */
 .site-header {
-  position: relative;
+  position: fixed;
+  width: 100%;
   padding-left: 165px;
   padding-right: 165px;
   padding-top: 22px;
