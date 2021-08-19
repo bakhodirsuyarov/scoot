@@ -1,0 +1,144 @@
+/* SITE-SERVICE */
+.site-service{
+  padding-top: 160px;
+  padding-bottom: 200px;
+  background-color: #FFFFFF;
+  background-image: url(../../img/site-service-line.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 306px)201px;
+}
+
+.site-service__inner{
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.site-service__list{
+  @include list-unstyled;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.site-service__item{
+  width: calc(100% / 3 - 30px);
+}
+
+.site-service__item:not(:last-child){
+  margin-right: 30px;
+}
+
+.site-service__title{
+  font-family: Space Mono;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.site-service__info{
+  font-family: Lexend Deca;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  margin: 0;
+  margin-top: 27px;
+}
+
+
+/* MEDIA */
+
+@include breakpoint-down (770px) {
+
+  .site-service{
+    background-image: url(../../img/site-service-verline.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 240px)-5px;
+    padding-top: 105px;
+  }
+
+  .site-service__inner{
+    padding-left: 98px;
+    padding-right: 98px;
+  }
+
+  .site-service__list{
+    flex-direction: column;
+  }
+
+  .site-service__item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .site-service__item:not(:last-child){
+    margin-right: 0;
+    margin-bottom: 63px;
+  }
+
+  .site-service__img{
+    margin-right: 79px;
+  }
+
+  .site-service__title{
+    margin-top: 0;
+  }
+}
+
+@include breakpoint-down (700px) {
+
+  .site-service{
+    background-position: calc(50% - 203px)-5px;
+  }
+}
+
+@include breakpoint-down (650px) {
+
+  .site-service{
+    background-image: none;
+    padding-top: 120px;
+  }
+
+  .site-service__item{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .site-service__item:not(:last-child){
+    margin-bottom: 48px;
+  }
+
+  .site-service__img{
+    margin-right: 0;
+  }
+}
+
+@include breakpoint-down (550px) {
+
+  .site-service__inner{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@include breakpoint-down (450px) {
+
+  .site-service__inner{
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
+@include breakpoint-down (375px) {
+
+  .site-service__inner{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
