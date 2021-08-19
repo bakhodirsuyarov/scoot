@@ -488,6 +488,7 @@ body {
   background-color: #FCB72B;
   padding: 14px 39px;
   text-decoration: none;
+  border: 2px solid transparent;
 }
 
 .site-header__link-get:hover {
