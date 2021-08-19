@@ -1,0 +1,11 @@
+/* SOCIAL-LINK */
+.social-list{
+  display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  @include list-unstyled;
+}
+
+.social-item:not(:last-child){
+  margin-right: 24px;
+}
