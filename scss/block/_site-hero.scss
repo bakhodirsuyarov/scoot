@@ -1,0 +1,110 @@
+/* SITE-HERO */
+.site-hero{
+  background-image: url(../../img/desktop-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: calc(50% - 10px);
+}
+
+.site-hero__wrapper{
+  padding-top: 153px;
+  padding-bottom: 152px;
+  padding-left: 65px;
+  padding-right: 165px;
+}
+
+.site-hero__title{
+  font-family: Space Mono;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 40px;
+  max-width: 500px;
+  padding-left: 100px;
+}
+
+.site-hero__content{
+  padding-left: 160px;
+  padding-bottom: 32px;
+}
+
+.site-hero__wrapper{
+  background-image: url(../../img/desktop-right-line.svg), url(../../img/desktop-left-line.svg), url(../../img/site-hero-circle.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - -212px)337px, calc(50% - 573px) 336px, calc(50% - -610px)410px;
+}
+
+.site-hero__info{
+  font-family: Lexend Deca;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 40px;
+  max-width: 405px;
+}
+
+/* MEDIA */
+
+@include breakpoint-down (1106px) {
+
+  .site-hero__wrapper{
+    background-position: calc(50% - -320px)337px, calc(50% - 446px)336px, calc(50% - -610px)510px;
+    padding-left: 30px;
+  }
+}
+
+@include breakpoint-down (1000px) {
+
+  .site-hero__wrapper{
+    background-image: url(../../img/desktop-right-line.svg), url(../../img/site-hero-circle.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 352px)475px, calc(50% - -408px)550px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 130px;
+    padding-bottom: 250px;
+    text-align: center;
+  }
+
+  .site-hero__title{
+    padding-left: 0;
+    max-width: none;
+  }
+
+  .site-hero__content{
+    padding-left: 0;
+  }
+
+  .site-hero__info{
+    max-width: none;
+  }
+}
+
+@include breakpoint-down (900px) {
+
+  .site-hero__wrapper{
+    background-position: calc(50% - 352px)475px, calc(50% - -408px)550px;
+  }
+}
+
+@include breakpoint-down (800px) {
+
+  .site-hero__wrapper{
+    background-position: calc(50% - 352px) 475px,calc(50% - -312px) 555px;
+  }
+}
+
+@include breakpoint-down (768px) {
+
+  .site-hero__wrapper{
+    padding-bottom: 217px;
+    background-position: calc(50% - 271px) 475px,calc(50% - -295px) 555px;
+  }
+}
+
+
