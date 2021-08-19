@@ -606,7 +606,7 @@ body {
 .site-hero__wrapper {
   background-image: url(../../img/desktop-right-line.svg), url(../../img/desktop-left-line.svg), url(../../img/site-hero-circle.svg);
   background-repeat: no-repeat;
-  background-position: calc(50% - -212px) 337px, calc(50% - 573px) 336px, calc(50% - -610px) 410px;
+  background-position: calc(50% - -203px) 393px, calc(50% - 573px) 394px, calc(50% - -610px) 470px;
 }
 
 .site-hero__info {
