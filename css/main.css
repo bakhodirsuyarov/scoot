@@ -534,6 +534,12 @@ body {
 }
 
 @media only screen and (max-width: 650px) {
+  .site-header__wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
   .site-header__links {
     display: none;
   }

@@ -102,6 +102,10 @@
 
 @include breakpoint-down (650px) {
 
+  .site-header__wrapper{
+    flex-direction: row-reverse;
+  }
+
   .site-header__links{
     display: none;
   }
